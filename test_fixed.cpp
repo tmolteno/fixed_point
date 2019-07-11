@@ -1,3 +1,9 @@
+/**
+ * Simple Testharness
+ * in an embedded programme.
+ * 
+ * Copyright (c) Tim Molteno. 2003-2019.
+ * */
 
 #include <iostream>
 
@@ -17,8 +23,8 @@ int main(int argc, char **argv)
 // 	f_int64::testharness();
 	Fixed16::testharness();
 	Fixed32::testharness();
-// 	FixedVector::testharness();
-// 	Quaternion::testharness();
+ 	FixedVector::testharness();
+ 	Quaternion::testharness();
 	FixedMatrix::testharness();
 
 	return 0;

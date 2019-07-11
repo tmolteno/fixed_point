@@ -1,3 +1,10 @@
+/**
+ * Simple example program showing how to used this Fixed class
+ * in an embedded programme.
+ * 
+ * Copyright (c) Tim Molteno. 2003-2019.
+ * */
+
 #include "Fixed.h"
 #include "FixedVector.h"
 
